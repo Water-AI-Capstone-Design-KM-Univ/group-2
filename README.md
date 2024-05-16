@@ -2,7 +2,7 @@
 ## Measurement of waterlevel or riverflow
 
 **1. SSIMS-Flow의 이용: https://github.com/ljubicicrobert/SSIMS-Flow**
- - 현재 README 파일의 절차에 따라서 프로그램을 설치하면 잘 작동합니다.
+ - 현재 README 파일의 절차에 따라서 프로그램을 설치하면 잘 작동합니다. 논문 버전 SSIMS-Flow의 경우, Python interpreter의 지정에 대한 issues가 있었는데 이메일을 보내서 문의결과 개발자가 이슈를 해결해줘서 현재 버전을 잘 실행이 됩니다.
    
   a. Anaconda 설치
 
@@ -19,9 +19,9 @@
 ![SSIMS_Flow](ssims_flow.png)
 ![project_configuration](config.png)
 
-**2. Fudaa-LSPIV**
- - Thanks for your feedback on the paper and the software !
-   First, you can try downloading the latest version of Fudaa-LSPIV : https://nextcloud.inrae.fr/s/Z95gg42b9jMrDA4
+**2. Fudaa-LSPIV** : 아래의 사항은 논문으로 공유된 버전에 에러가 일부 있어서 이메일을 보내어 받을 결과입니다.
+ - The latest version of Fudaa-LSPIV : https://nextcloud.inrae.fr/s/Z95gg42b9jMrDA4
+ - 위의 Link에 메뉴얼도 있습니다.
    This version comes with an embedded java distribution which solves many java issues. The problem you described could be due to such java issue.
    Please try again with the version 1.10.1, I think it may work.
    Also, the “R_batch_Fudaa-LSPIV” is a folder with R scripts written to call Fudaa-LSPIV executables. This was developed for those who want to have an “automatic” LSPIV computation, without using the Fudaa- LSPIV interface (GUI).
