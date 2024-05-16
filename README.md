@@ -3,7 +3,7 @@
 
 **1. SSIMS-Flow의 이용: https://github.com/ljubicicrobert/SSIMS-Flow**
  - 현재 README 파일의 절차에 따라서 프로그램을 설치하면 잘 작동합니다.
- - 
+   
   a. Anaconda 설치
 
   b. 새로운 conda environment 설치
